@@ -28,4 +28,3 @@ python main.py --eval True
 ```
 While we find 'w=4' a suitable number for reconstruction, increasing and decreasing this hyperparameter helps for better reconstruction.
 }
-```
