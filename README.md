@@ -1,3 +1,11 @@
+This study introduces a paradigm shift in anomaly detection by adopting the diverse VisA dataset over the traditional MVTec, bringing in a variety of visual anomalies for exploration.
+
+The research focused on enhancing the model's noise handling and refining the scoring of features and textures, thereby boosting detection accuracy. Architectural improvements in the UNET's residual structure and better upsampling and downsampling techniques have improved feature extraction efficiency and precision.
+
+The model's complexity was balanced with generalization capabilities, incorporating L1 and L2 regularizations. Broader evaluation metrics now include the F1 score, latency, and FPS, leading to comprehensive performance assessments.
+
+The improved model showcases competitive performance with an AUROC close to 98%, leading in F1 score, FPS, and latency, and setting new benchmarks for anomaly detection. The study paves the way for further enhancements in the field. Releasing the code at https://github.com/henrychou1233/newddad-on-visa
+
 ## Requirements
 This repository is implemented and tested on Python 3.8 and PyTorch 1.13.
 To install requirements:
